@@ -5,7 +5,7 @@ function init(){
     h=d.getHours();
     m=d.getMinutes();
     s=d.getSeconds();
-    date=(d.getDate()).toString() + "." + (d.getMonth()).toString() + "." + (d.getFullYear()).toString();
+    date=(d.getDate()).toString() + "." + (d.getMonth()+1).toString() + "." + (d.getFullYear()).toString();
     clock();
 };
 
